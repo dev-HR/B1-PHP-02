@@ -1,0 +1,1 @@
+echo "Saisir le prix Hors Taxe d'une traversée : " ; $prixHT = fgets( rtrim( STDIN ) ) ; ( TVA * $prixHT ) / 100 + $prixHT => $prixTTC  ; echo "Prix TTC : " , $prixTTC , "\n" ; Ah oui j'ai oublié ça : define( "TVA" , 19,6 ) ; désolé
